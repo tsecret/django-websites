@@ -1,0 +1,127 @@
+body{ /*Setting the background*/
+    background: url("../images/background.jpg");
+    background-size: cover;
+}
+
+.a-custom{ /*Color for our navbar links*/
+    color:wheat;
+}
+
+.navbar-custom{ /*Navbar color and opacity*/
+    background-color: black;
+    opacity: 0.7;
+}
+
+.container{ /*The container that is used on every page*/
+    width: 80%;
+    min-height: 500px;
+    background: black;
+    opacity: 0.7;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-text{ /*Setting the color, size and padding for header text*/
+    color: wheat;
+    font-size: 300%;
+    padding: 1%;
+}
+
+.about-golf{ /*Text on about page*/
+    color: wheat;
+    font-size: 200%;
+    padding: 5%;
+}
+
+.rules-header{
+    color: wheat;
+    font-size: 100%;
+    padding: 5%;
+}
+
+.rules-list{
+    color: wheat;
+    font-size: 100%;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+li{
+    margin: 5px;
+}
+
+.carousel-inner{
+    margin: 30px;
+}
+
+.fact{
+    width: 90%;
+}
+
+.fact-header{
+    flex: 1;
+    color: wheat;
+    font-weight: bold;
+}
+
+.fact-text{
+    flex: 1;
+    justify-self: center;
+    color: wheat;
+}
+
+.right{
+    justify-self: right;
+}
+
+.left{
+    justify-self: left;
+}
+
+.member-info-container{ /*Member Card*/
+    display: flex; /*Placing every card  */
+    flex-direction: row; /* in the center*/
+    align-content: center; /* leaving even space*/
+    justify-content: space-evenly; /* around them*/
+}
+
+.category-container{
+    min-width: 250px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.category-name{
+    font-weight: bold;
+    flex: 2;
+    font-size: 25px;
+    color: wheat;
+}
+
+.member-name{
+    font-size: 20px;
+    color: wheat;
+}
+
+.category-description{
+    color: burlywood;
+    flex: 2;
+    font-size: 15px;
+    color: darkslateblue;
+    border-top: 2px solid wheat;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.date{
+    font-size: 15px;
+}

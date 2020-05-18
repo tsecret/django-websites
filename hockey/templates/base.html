@@ -1,0 +1,55 @@
+{% load static %}
+<!doctype html>
+<html>
+
+<head>
+    <title>Hockey</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/app_styles.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+</head>
+
+<body>
+    <nav class="navbar navbar-custom navbar-expand-lg">
+        <span class="logo">
+            <i class="fas fa-hockey-puck"></i>
+        </span>
+
+        <div class="navbar-navs">
+            <ul class="navbar-nav justify-content-center">
+                <li class="nav-item active">
+                    <a class="nav-link a-custom" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link a-custom" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link a-custom" href="#rules">Rules</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link a-custom" href="#statistics">Statistics</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link a-custom" href="#events">Tournaments</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link a-custom" href="#impressum">Impressum</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link a-custom" href="#sources">Sources</a>
+                </li>
+            </ul>
+        </div>  
+    </nav>
+
+    {% block content %}
+    {% endblock %}
+
+    <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.js' %}"></script>
+
+</body>
+
+</html>

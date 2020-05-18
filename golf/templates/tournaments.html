@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+    <h3 class="header-text">
+        Upcoming Tournaments
+    </h3>
+    <table class="table table-striped table-dark table-bordered">
+        <thead>
+            <tr>
+                <th scope="col" class="text-left align-middle">Date</th>
+                <th scope="col" class="text-left align-middle">Name</th>
+                <th scope="col" class="text-left align-middle">Location</th>
+                <th scope="col" class="text-left align-middle">Prize Pool</th>
+                <th scope="col" class="text-left align-middle">Defending Champion</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row" class="date">Sep 12 - 15</th>
+                <td>A Military Tribute at The Greenbrier</td>
+                <td>The Old White Course, White Sulphur Springs WV - USA</td>
+                <td>$7,500,000</td>
+                <td>Joaquin Niemann</td>
+            </tr>
+            <tr>
+                <th scope="row" class="date">Sep 19 - 22</th>
+                <td>Sanderson Farms Championship</td>
+                <td>Country Club of Jackson, Jackson MS - USA</td>
+                <td>$6,600,000</td>
+                <td>Sebastián Muñoz</td>
+            </tr>
+            <tr>
+                <th scope="row" class="date">Sep 26 - 29</th>
+                <td>Safeway Open</td>
+                <td>Silverado Resort, Napa CA - USA</td>
+                <td>$6,600,000</td>
+                <td>Cameron Champ</td>
+            </tr>
+            <tr>
+                <th scope="row" class="date">Oct 03 - 06</th>
+                <td>Shriners Hospitals for Children Open</td>
+                <td>TPC Summerlin, Las Vegas NV - USA</td>
+                <td>$7,000,000</td>
+                <td>Kevin Na</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+{% endblock %}

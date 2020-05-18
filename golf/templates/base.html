@@ -1,0 +1,59 @@
+{% load static %} <!--Loading static files-->
+<!doctype html>
+<html>
+
+<head>
+    <title>Golf</title>
+    <!--Importing bootstrap css from static-->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+</head>
+
+<body>
+    <!--Navbar with links to pages that will be displayed on every page-->
+    <nav class="navbar navbar-custom navbar-expand-lg">
+        <span style="font-size: 40px; color: wheat; margin-left: 10px; margin-right: 50px;">
+            <i class="fas fa-golf-ball"></i>
+        </span>
+
+        <div class="navbar-navs">
+            <ul class="navbar-nav justify-content-center">
+                <li class="nav-item active">
+                    <a class="nav-link a-custom" href="/"><i class="fas fa-home"></i> Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link a-custom" href="/about"><i class="fas fa-info"></i> About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link a-custom" href="/rules"><i class="fas fa-list-alt"></i> Rules</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link a-custom" href="/statistics"><i class="fas fa-database"></i> Statistics</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link a-custom" href="/tournaments"><i class="fas fa-trophy"></i> Tournaments</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link a-custom" href="/impressum"><i class="fas fa-users"></i> Impressum</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link a-custom" href="/reference"><i class="fas fa-asterisk"></i> Reference</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Here is the dynamic code-->
+    {% block content %}
+    replace me
+    {% endblock %}
+
+    <!--Importing bootstrap scripts-->
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.js' %}"></script>
+
+</body>
+
+</html>

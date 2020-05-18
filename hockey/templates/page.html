@@ -1,0 +1,218 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<!--Home container-->
+<div id="home" class="container home-container animated fadeInUp delay-2s">
+    <h3 class="header-text-home">
+        Hockey
+    </h3>
+</div>
+
+<!--About container-->
+<div id="about" class="container">
+    <div class="side-image-1">
+
+    </div>
+
+    <div class="text-container">
+        <h3 class="header-text">About Hockey</h3>
+        <p class="p-about"><strong>Ice hockey</strong> is game between two teams, each usually having six players, who
+            wear skates and compete on an ice rink. The object is to propel a vulcanized rubber disk, the puck, past a
+            goal line and into a net guarded by a goaltender, or goalie. With its speed and its frequent physical
+            contact, ice hockey has become one of the most popular of international sports.</p>
+    </div>
+
+    <div class="side-image-2">
+
+    </div>
+
+
+</div>
+
+<!--Rules container-->
+<div id="rules" class="container animated fadeInUp delay-2s">
+    <img class="image" src="{% static './images/rules.jpg' %}" alt="side-image">
+
+    <div class="text-container">
+        <h3 class="header-text">
+            Rules
+        </h3>
+
+        <ul class="rules">
+            <li class="rule">
+                The objective of hockey is simple: score more goals than the opposing team. Players are not allowed to
+                kick the puck into the net or purposely direct it in with any part of their body.
+            </li>
+
+            <li class="rule">
+                During regulation time, each team uses five skaters—three forwards and two defencemen—plus a goaltender.
+            </li>
+
+            <li class="rule">
+                National Hockey League games are contested over three 20-minute periods. If the score is tied after 60
+                minutes, the game moves to a five-minute, sudden-death overtime where the first goal wins.
+            </li>
+
+            <li class="rule">
+                If the game remains tied after overtime, a shootout is held until a winner is determined.
+            </li>
+
+            <li class="rule">
+                There are four officials in NHL games—two referees and two linesmen. They stop play for penalties and
+                for things like offside or icing.
+            </li>
+
+            <li class="rule">
+                Offside: when players enter the offensive zone before the puck gets there.
+            </li>
+        </ul>
+
+    </div>
+
+</div>
+
+<!--Statistics container-->
+<div id="statistics" class="container animated fadeInUp delay-2s">
+    <div class="text-container">
+        <h3 class="header-text">
+            Top Teams
+        </h3>
+
+        <div class="teams-container">
+            <div class="team-container">
+                <img class="flag" src="{% static './flags/canada.png' %}" alt="canada">
+                <span>Canada</span>
+                <span>3470 points</span>
+            </div>
+
+            <div class="team-container">
+                <img class="flag" src="{% static './flags/russia.png' %}" alt="russia">
+                <span>Russia</span>
+                <span>3400 points</span>
+            </div>
+
+            <div class="team-container">
+                <img class="flag" src="{% static './flags/finland.png' %}" alt="finland">
+                <span>Finland</span>
+                <span>3345 points</span>
+            </div>
+
+            <div class="team-container">
+                <img class="flag" src="{% static './flags/sweden.png' %}" alt="sweden">
+                <span>Sweden</span>
+                <span>3325 points</span>
+            </div>
+
+            <div class="team-container">
+                <img class="flag" src="{% static './flags/czech.png' %}" alt="czech">
+                <span>Czech Republic</span>
+                <span>3200 points</span>
+            </div>
+        </div>
+
+
+    </div>
+
+    <img class="image" src="{% static './images/teams.jpg' %}" alt="side-image">
+</div>
+
+<!--Events container-->
+<div id="events" class="container animated fadeInUp delay-2s">
+
+    <img class="image" src="{% static './images/events.jpg' %}" alt="side-image">
+
+    <div style="display: flex; flex-direction: row; justify-content: center; align-items: center; margin: 0 10px">
+
+
+        <h3 class="header-text" style="writing-mode: vertical-rl; height: 90%;">
+            Events
+        </h3>
+        <div class="events">
+            <div class="event">
+                <h3>Weekend Hockey St Louis</h3>
+                <span><strong>Divisions: </strong>19+, 25+, 30+, 40+, 50+, 55+</span>
+                <span><strong>Location: </strong>St Louis, MO (US)</span>
+                <span><strong>Date: </strong>May. 1st - May. 3rd</span>
+            </div>
+
+            <div class="event">
+                <h3>Defender Aspen Ice Classic</h3>
+                <span><strong>Divisions: </strong>Squirt, Peewee, Bantam</span>
+                <span><strong>Location: </strong>Randolph, NJ (US)</span>
+                <span><strong>Date: </strong>May. 1st - May. 3rd</span>
+            </div>
+
+            <div class="event">
+                <h3>Green Mountain Avalanche</h3>
+                <span><strong>Divisions: </strong>2010, 2011, 2012</span>
+                <span><strong>Location: </strong>Jay, VT (US)</span>
+                <span><strong>Date: </strong>May. 8th - May. 10th</span>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<!--Impressum container-->
+<div id="impressum" class="container animated fadeInUp delay-2s"
+    style="display: flex; justify-content: center; align-items: center;">
+
+    <img class="image" style="width: 300px" src="{% static './images/impressum1.jpg' %}" alt="side-image">
+
+    <div class="text-container">
+        <h3 class="header-text" style="margin: 5%">
+            Our Team
+        </h3>
+
+        <p class="member-container">
+            <strong>Speakers - </strong> Dauren Buzikeyev, Niyazbemov Almaz
+        </p>
+
+        <p class="member-container">
+            <strong>Coders - </strong> Daniyarov Azat, Kanat Temirlan
+        </p>
+
+        <p class="member-container">
+            <strong>Speakers - </strong> Kades Almaz, Sabitov Sayat
+        </p>
+
+    </div>
+
+    <img class="image" style="width: 300px" src="{% static './images/impressum2.jpg' %}" alt="side-image">
+
+</div>
+
+<!--Sources container-->
+<div id="sources" class="container animated fadeInUp delay-2s"
+    style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+
+    <h3 class='header-text'>Sources</h3>
+
+    <div class="row">
+        <ul>
+            <li><a href="https://www.britannica.com/sports/ice-hockey">About hockey</a></li>
+            <li><a
+                    href="https://www.needpix.com/photo/1861445/ice-hockey-hockey-ice-goalkeeper-shots-hockey-players-catch-ungdomshockey-sports">Rules</a>
+            </li>
+            <li><a href="https://www.iihf.com/en/worldranking">Top Teams</a></li>
+            <li><a href="https://www.hockeyfinder.com/tournaments">Events</a></li>
+        </ul>
+
+        <ul>
+            <li><a href="https://commons.wikimedia.org/wiki/File:Ice_hockey_stick_and_puck_20181220.jpg">Image</a></li>
+            <li><a
+                    href="https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:Universiade_2017._Ice_hockey._Women._KAZ_-_JPN.jpg">Image</a>
+            </li>
+            <li><a href="https://www.pxfuel.com/en/free-photo-ocqjk">Image</a></li>
+            <li><a href="https://commons.wikimedia.org/wiki/File:Dow_Event_Center_-_Interior.JPG">Image</a></li>
+            <li><a
+                    href="https://www.pikrepo.com/fkkje/man-in-white-ice-hockey-jersey-holding-black-baseball-bat">Image</a>
+            </li>
+            <li><a href="https://www.pikrepo.com/fxley/ice-hockey-players-on-ice-hockey-field">Image</a></li>
+
+    </div>
+</div>
+
+{% endblock %}
